@@ -1,0 +1,19 @@
+#gmap_canvas {
+  width: 300px;
+  height: 300px;
+
+  @include media-breakpoint-up(md) {
+    width: 500px;
+    height: 500px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 550px;
+    height: 550px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: 750px;
+    height: 750px;
+  }
+}

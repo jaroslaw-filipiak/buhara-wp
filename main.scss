@@ -1,0 +1,44 @@
+@import './scss/abstracts/variables';
+@import './scss/abstracts/mixins';
+
+@import './scss/vendors/bootstrap';
+@import './scss/vendors/scroll';
+@import './scss/vendors/splide';
+
+@import './scss/base/typography';
+
+@import './scss/layout/navigation';
+@import './scss/layout/header';
+@import './scss/layout/footer';
+@import './scss/layout/forms';
+
+@import './scss/components/buttons';
+
+@import './scss/pages/home';
+
+html,
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+.bl-dark {
+  border-left: 1px solid #39444f;
+}
+.bt-dark {
+  border-top: 1px solid #39444f;
+}
+.br-dark {
+  border-right: 1px solid #39444f;
+}
+.bb-dark {
+  border-bottom: 1px solid #39444f;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
